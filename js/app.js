@@ -30,7 +30,7 @@ no.addEventListener("click", () => {
     no.style.width = "30%";
     count++;
   } else if (count == 3) {
-    gif.src = "../resources/3shocked-1.gif";// gif credit: https://tenor.com/view/tkthao219-peach-goma-gif-25008901
+    gif.src = "resources/3shocked-1.gif";// gif credit: https://tenor.com/view/tkthao219-peach-goma-gif-25008901
     text.innerHTML = "Your hand must have slipped right?🥹";
     yes.style.height = "70%";
     yes.style.width = "70%";
@@ -66,3 +66,4 @@ yes.addEventListener("click", () => {
     vid.style.display = "none";
   }, 9000);
 });
+
